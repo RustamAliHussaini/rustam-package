@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace RustamAliHussaini\RustamPackage\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RustamPackageCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'rustam-package';
 
     public $description = 'My command';
 

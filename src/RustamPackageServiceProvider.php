@@ -17,9 +17,12 @@ class RustamPackageServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('rustam-package')
-            ->hasConfigFile()
+            ->hasConfigFile('rustam-package')
+
+            /*
             ->hasViews()
-            ->hasMigration('create_rustam_package_table')
+            */
+            ->hasMigration('create_my_models_table')
             ->hasCommand(RustamPackageCommand::class);
     }
 }

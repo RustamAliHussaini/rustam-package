@@ -6,13 +6,14 @@ use Illuminate\Console\Command;
 
 class RustamPackageCommand extends Command
 {
-    public $signature = 'rustam-package';
+    public $signature = 'rustam-command';
 
     public $description = 'My command';
 
     public function handle(): int
     {
-        $this->comment('All done');
+        $text = config('rustam-package.command_output');
+        $this->comment($text);
 
         return self::SUCCESS;
     }

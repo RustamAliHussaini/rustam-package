@@ -2,9 +2,9 @@
 
 namespace RustamAliHussaini\RustamPackage;
 
+use RustamAliHussaini\RustamPackage\Commands\RustamPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use RustamAliHussaini\RustamPackage\Commands\RustamPackageCommand;
 
 class RustamPackageServiceProvider extends PackageServiceProvider
 {
